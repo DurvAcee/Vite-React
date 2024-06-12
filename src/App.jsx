@@ -1,12 +1,13 @@
 import './App.css'
-import Colorlist from './components/Colorlist'
+import Slots from './components/Slots'
 
 function App() {
 
 
   return (
     <>
-      <Colorlist colors={['red', 'blue', 'green']}/>
+      <Slots val1='🍇' val2='🍇' val3='🍇'/>
+      <Slots val1='🍇' val2='🍉' val3='🍇'/>
     </>
   )
 }
