@@ -1,14 +1,14 @@
 import './App.css'
-import Dieroll from './components/Dieroll'
+import Doubledice from './components/Doubledice'
 
 function App() {
 
 
   return (
     <>
-      <Dieroll />
-      <Dieroll numSides = {10}/>
-      <Dieroll numSides = {12}/>
+      <Doubledice />
+      <Doubledice />
+      <Doubledice />
     </>
   )
 }
