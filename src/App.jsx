@@ -1,13 +1,15 @@
 import './App.css'
-import Slots from './components/Slots'
+import ShoppingList from './components/ShoppingList';
 
+const data = [
+    {id: 1, item: 'Eggs', quantity: 5, completed: true},
+    {id: 2, item: 'Milk', quantity: 1, completed: false},
+];
 function App() {
-
 
   return (
     <>
-      <Slots val1='🍇' val2='🍇' val3='🍇'/>
-      <Slots val1='🍇' val2='🍉' val3='🍇'/>
+      <ShoppingList items={data}/>
     </>
   )
 }
