@@ -1,14 +1,14 @@
 import './App.css'
-import Chicken from './Chicken'
-import Greeter from './Greeter'
+import Dieroll from './components/Dieroll'
 
 function App() {
 
 
   return (
     <>
-      <Greeter name = "Durvesh"/>
-      <Chicken />
+      <Dieroll />
+      <Dieroll numSides = {10}/>
+      <Dieroll numSides = {12}/>
     </>
   )
 }
