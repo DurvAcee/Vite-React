@@ -1,14 +1,12 @@
 import './App.css'
-import Doubledice from './components/Doubledice'
+import Colorlist from './components/Colorlist'
 
 function App() {
 
 
   return (
     <>
-      <Doubledice />
-      <Doubledice />
-      <Doubledice />
+      <Colorlist colors={['red', 'blue', 'green']}/>
     </>
   )
 }
