@@ -1,11 +1,11 @@
 import './App.css'
-import Counter from './components/Counter'
+import Toggler from './components/Toggler'
 
 function App() {
 
   return (
     <>
-      <Counter/>
+      <Toggler/>
     </>
   )
 }
