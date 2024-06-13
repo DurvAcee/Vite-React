@@ -1,11 +1,11 @@
 import './App.css'
-import Clicker from './components/Clicker'
+import Counter from './components/Counter'
 
 function App() {
 
   return (
     <>
-    <Clicker msg = 'Hello' buttonText='Hey'/>
+      <Counter/>
     </>
   )
 }
